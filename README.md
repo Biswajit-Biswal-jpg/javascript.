@@ -76,3 +76,49 @@ Datatypes in JS :-
 let emp1 = { "name" : "sonu kumar", "age" : "76", "address" : "bhubaneswar", "mobile no." : 546789032, "salary" : 56789332 }
 
 - in the above example we can see that the left hand side elements are the keys & the right hand side element are values so we can tell that object is a key:value pair structure.
+
+3.Function:-
+
+- in function , we repeatdly do the task in function.
+- function reduce our code complexity and time and space complexity.
+- syntax ->
+//function
+function my schedule(){
+    console.log("we wake up at 6 am")
+    console.log("we go for a morniong walk")
+    console.log("we go to our college for time pass")
+}
+//function calling
+my schedule()
+
+
+Opertator in JS:-
+
+- Opertors are the key features to do some task or operate some task.
+- ex. a+b
+- in the above example a,b are the operants and "+" is the operator.
+- there are 5 types of operators are present in Javascript.
+
+1.Arithmatic opertor:-(+,-,*,/,%(modulus),**(exponential))
+2.Logical operator:-(logical operator(&&),logical OR(||), logical NOT(!))
+
+A    B     A&&B
+T    T      T
+T    F      F
+F    T      F
+F    F      F
+
+A    B      A||B
+T    T        T
+T    F        T
+F    T        T
+F    F        F
+
+3.Assignment operator:-(=,+=,-=,*=,%=,**=)
+4.unary operator:-(increment operator(++),decrementr operator(--))
+5.comparision operator:-(==,!==,=== etc...)
+
+
+1.Arithmatic operator:-
+
+-
