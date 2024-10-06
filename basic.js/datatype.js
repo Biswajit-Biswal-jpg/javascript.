@@ -14,9 +14,9 @@
 // console.log(a)
 // console.log(typeof(a))
 
-// let mySalary;
-// console.log(mySalary)
-// console.log(typeof(mySalary))
+ let mySalary;
+ console.log(mySalary)
+ console.log(typeof(mySalary))
 
 // let y = Symbol("hello");
 // console.log(y)

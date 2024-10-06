@@ -119,6 +119,148 @@ F    F        F
 5.comparision operator:-(==,!==,=== etc...)
 
 
-1.Arithmatic operator:-
+Conditional statement:-
 
--
+- To implement some condition on the code.
+- there arer 3 types of conditional statement are there:-
+
+1. If condition:-
+ - if condition ios true then statement is also true.
+ - synta:-
+ if(condition){
+    statement
+ }
+
+2. if-else condition :-
+ - if condition is true then statement is true otherwise false.
+ - syntax:-if(condition){
+    statement
+ } else {
+    statement
+ }
+
+3. if-elif conditon :-
+
+-its check the condition multiple times, where the conditionn is true.
+- syntax:-
+if(condition){
+    statement
+}else if(condition){
+    statemant
+}else if(condition){
+    statement
+}else{
+    statement
+}
+
+-Practice question :-
+- write a code which can give grades to students according to their scores :-
+      1. 80 - 100 (A)
+      2.70 - 79 (B)
+      3.60 - 69 (c)
+      4.50 - 59 (D)
+      5.0 - 49 (Fail- go to aganawadi)
+
+LOOPS in Javascript:-
+
+- loops are used to excute a piece of code again again.
+- therev are 5 types of loops are there:-
+1. For loop:-
+
+-syntax ->
+for(initializaton;condition ; incre/decre){
+    statement
+}
+example:->
+for(let i=1;i<=5;i++){
+    console.log("web bocket")
+}
+
+
+ workin/output:-
+ 1. web bocket
+ 2. web bocket
+ 3. web bocket
+ 4. web bocket
+ 5. web bocket
+
+
+2. while loop:-
+ - sytax:->
+ initialization
+ while(condition){
+    statement
+    inc/dec
+ }
+
+3. Do-while loop:-
+ - syntax:->
+ d0{
+    statement;
+    inc/dec;
+ }while(condition)
+
+4. For-of loop:- It iterates on string & array 
+ - 
+5. For-in loop:- it iterates over the object
+
+String in Javascript :-
+
+- string is a sequency of character used to represent text.
+- create a string -> let str = "web bocket"
+- we calculate the string length -> str.length property.
+- we calculate the string index -> str[0], str[1] ...etc
+
+String Literals :-
+
+- its a way to have embedded expression in string.
+- its denoted by symbol ''.
+
+String interpolation :-
+
+ - to create string by doing substitution of placeholder.
+ - ex -> string text ${expression} string text.
+
+string escape symbol :-
+
+ - \n -> new line
+ - \t -> tab inside a string
+
+String method :- (in-build method)
+
+1. str.toUpperCase()
+2. str.toLowerCase()
+3. str.trim()
+4. str.slice(start,end)
+5. str1.concat(str2)
+6. str.replace(searchVal, newVal)
+7. str.charAt(idx)
+
+
+Array on JS :-
+
+- array is a collection if items.
+- ex - let heros = ["iron man", "hulk", "super man", "spyder man"]
+- array index starting form "0".
+- arr[0], arr[1].. etc...
+
+Looping over an array :-
+- loop -> iterable
+- syntax -> for (let i = 0; i < arr.length; i++){ statement }
+
+Practice question :- 15 min
+
+- For a given array with marks of students -> [86,78,45,32,67]. find the average marks of the entire class.
+- For a given array with prices of 5 items -> [567,973,390,321,689]. all items have an offer of 10% off of them. change the array 
+  to store final price after applying offer.
+
+Array methods on js :-
+
+1. push - add an element to the end.
+2. pop - delet from end
+3. toString - convert array to string
+4. concat - joins multiple array and return result.
+5. unshift - add an element to the string
+6. shift - delet from start
+7. slice() - return a piece of the array.
+8. splice() - change original array (add, remove, replace)

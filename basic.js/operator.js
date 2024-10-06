@@ -64,14 +64,14 @@
 let x = 3;
 
 //logical and
-console.log((x < 5) && ( x>0 ))
-console.log((x < 5) && ( x>6 ))
+console.log((x < 5) && ( x>0 )) //true
+console.log((x < 5) && ( x>6 )) //false
 
 //logical OR
-console.log((x > 2) || (x > 5)) 
-console.log((x > 3) || (x < 0))
+console.log((x > 2) || (x > 5))  //true
+console.log((x > 3) || (x < 0))   ///false
 
 //logical NOT
 
-console.log(!(x ==2 ))
-console.log(!(x<2))
+console.log(!(x ==2 ))  //true
+console.log(!(x<2))   //true
